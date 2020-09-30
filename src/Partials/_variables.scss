@@ -3,17 +3,32 @@ $titleFont : 'Roboto', sans-serif;
 
 //font-sizes
 $navTopFontSize : 13px;
+$fontSize30: 30px;
 
 //colours
 $navColor : black;
 $iconsColor : #28ACFF;
 $linkNavTopColor : lightgrey;
 $linkNavBotColor : white;
+$limitedOfferColor : #E6E6E6;
+$trialColor : #5C5D5A;
 
 //dimensions
 $wrapperWidth : 1280px;
 $wrapperHeight : 100%;
+$squareWidth: 400px;
+$squareHeigth: 500px;
+$width100 : 100%;
 
 //paddings
 $navTopPadding : 10px 15px;
 $navBotPadding : 10px 25px;
+$buyNowPadding : 10px 35px;
+$padding20 : 20px;
+
+//margins
+$marBot15 : 15px;
+$marBot25: 25px;
+$margin20 : 20px;
+$marginBuyNow : 40px 0;
+$margin30 : 30px;

@@ -61,3 +61,104 @@ header .wrapper .nav-bottom-list li a {
   color: white;
 }
 
+.jumbotron {
+  position: relative;
+}
+
+.jumbotron .jumbo {
+  width: 100%;
+}
+
+.jumbotron .jumbo-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-70%, -50%);
+  color: white;
+}
+
+.jumbotron .jumbo-text h2,
+.jumbotron .jumbo-text h3 {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.jumbotron .jumbo-text .jumbo-list {
+  list-style: none;
+}
+
+.jumbotron .jumbo-text .jumbo-list li {
+  margin-bottom: 15px;
+}
+
+.jumbotron .jumbo-text .jumbo-list li .download-trial {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 230px;
+  background-color: #5C5D5A;
+  padding: 10px 15px;
+}
+
+.jumbotron .jumbo-text .jumbo-list li .download-trial i {
+  font-size: 30px;
+  border-left: 2px solid white;
+  padding-left: 15px;
+}
+
+.jumbotron .jumbo-square {
+  width: 400px;
+  height: 500px;
+  background-color: black;
+  padding: 20px;
+  position: absolute;
+  bottom: 4px;
+  right: 25%;
+}
+
+.jumbotron .jumbo-square .square-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.jumbotron .jumbo-square .square-top .price-download h2 {
+  color: white;
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+.jumbotron .jumbo-square .square-top .price-download p {
+  color: lightgrey;
+  font-size: 13px;
+}
+
+.jumbotron .jumbo-square .buy-now {
+  color: white;
+  background-color: #28ACFF;
+  padding: 10px 35px;
+  border: none;
+  margin: 40px 0;
+}
+
+.jumbotron .jumbo-square .limited-time-offer {
+  width: 100%;
+  background-color: #E6E6E6;
+  padding: 20px;
+}
+
+.jumbotron .jumbo-square .limited-time-offer h3 {
+  margin-bottom: 15px;
+}
+
+.jumbotron .jumbo-square .limited-time-offer p,
+.jumbotron .jumbo-square .limited-time-offer a {
+  font-size: 13px;
+}
+
+.jumbotron .jumbo-square .limited-time-offer a {
+  text-decoration: none;
+  color: #28ACFF;
+}
+

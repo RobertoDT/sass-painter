@@ -1,0 +1,83 @@
+.jumbotron{
+  position: relative;
+
+  .jumbo{
+    @include jumbo;
+  }
+
+  .jumbo-text{
+    @include trasform;
+    color: $linkNavBotColor;
+
+    h2, h3{
+      font-size: $fontSize30;
+      margin-bottom: $marBot25;
+    }
+
+    .jumbo-list{
+      @include listNone;
+
+      li{
+        margin-bottom: $marBot15;
+
+        .download-trial{
+          margin-top: $margin30;
+          @include downloadTrial;
+
+          i{
+            font-size: $fontSize30;
+            border-left: 2px solid $linkNavBotColor;
+            padding-left: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  .jumbo-square{
+    width: $squareWidth;
+    height: $squareHeigth;
+    background-color: black;
+    padding: $padding20;
+    @include positionAbs;
+
+    .square-top{
+      @include squareTop;
+
+      .price-download{
+
+        h2{
+          color: $linkNavBotColor;
+          margin-bottom: $marBot15;
+          font-size: $fontSize30;
+        }
+        p{
+          color: $linkNavTopColor;
+          font-size: $navTopFontSize;
+        }
+      }
+    }
+
+    .buy-now{
+      @include buyNow;
+      margin: $marginBuyNow;
+    }
+
+    .limited-time-offer{
+      @include limitedOffer;
+
+      h3{
+        margin-bottom: $marBot15;
+      }
+      p, a{
+        font-size: $navTopFontSize;
+      }
+      a{
+        text-decoration: none;
+        color: $iconsColor;
+      }
+
+    }
+  }
+
+}

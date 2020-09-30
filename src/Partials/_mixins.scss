@@ -1,3 +1,4 @@
+//header
 @mixin wrapper {
   width: $wrapperWidth;
   height: $wrapperHeight;
@@ -23,4 +24,54 @@
 .white{
   @extend %link;
   color: $linkNavBotColor;
+}
+
+//main
+//jumbotron
+@mixin jumbo{
+  width: 100%;
+}
+
+@mixin trasform {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-70%, -50%);
+}
+
+@mixin positionAbs{
+  position: absolute;
+  bottom: 4px;
+  right: 25%;
+}
+
+@mixin listNone {
+  list-style: none;
+}
+
+@mixin squareTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin downloadTrial {
+  @include squareTop;
+  width: 230px;
+  background-color: $trialColor;
+  padding: $navTopPadding;
+}
+
+
+@mixin buyNow{
+  color: $linkNavBotColor;
+  background-color: $iconsColor;
+  padding: $buyNowPadding;
+  border: none;
+}
+
+@mixin limitedOffer {
+  width: $width100;
+  background-color: $limitedOfferColor;
+  padding: $padding20;
 }
