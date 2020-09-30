@@ -1,24 +1,36 @@
 header{
   width: 100%;
   height: 100px;
-  background-color: $headerColor;
+  background-color: $navColor;
 
   .wrapper{
     @include wrapper;
 
     .nav-top-list{
-      @include list;
+      @extend %list;
 
       li{
         padding: $navTopPadding;
         font-size: $navTopFontSize;
 
-        a{
-          @include link;
-        }
-
         i{
           color: $iconsColor;
+        }
+
+        a{
+          @extend %link;
+        }
+      }
+    }
+    .nav-bottom-list{
+
+      li{
+        padding: $navBotPadding;
+
+        a{
+          @extend %link;
+          color: $linkNavBotColor;
+
         }
       }
     }

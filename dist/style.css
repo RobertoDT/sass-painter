@@ -1,3 +1,26 @@
+header .wrapper .nav-top-list,
+.flexStart {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.flexStart {
+  justify-content: flex-start;
+}
+
+header .wrapper .nav-bottom-list li a,
+header .wrapper .nav-top-list li a,
+.white {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.white {
+  color: white;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -11,20 +34,14 @@ body {
 header {
   width: 100%;
   height: 100px;
-  background-color: green;
+  background-color: black;
 }
 
 header .wrapper {
-  width: 1024px;
+  width: 1280px;
   height: 100%;
-  background-color: red;
+  background-color: black;
   margin: auto;
-}
-
-header .wrapper .nav-top-list {
-  display: flex;
-  list-style: none;
-  justify-content: flex-end;
 }
 
 header .wrapper .nav-top-list li {
@@ -32,12 +49,15 @@ header .wrapper .nav-top-list li {
   font-size: 13px;
 }
 
-header .wrapper .nav-top-list li a {
-  text-decoration: none;
-  color: lightgrey;
-}
-
 header .wrapper .nav-top-list li i {
   color: #28ACFF;
+}
+
+header .wrapper .nav-bottom-list li {
+  padding: 10px 25px;
+}
+
+header .wrapper .nav-bottom-list li a {
+  color: white;
 }
 

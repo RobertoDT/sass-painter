@@ -1,17 +1,26 @@
 @mixin wrapper {
   width: $wrapperWidth;
   height: $wrapperHeight;
-  background-color: $wrapperColor;
+  background-color: $navColor;
   margin: auto;
 }
 
-@mixin list{
+%list{
   display: flex;
   list-style: none;
   justify-content: flex-end;
+  align-items: center;
+}
+.flexStart{
+  @extend %list;
+  justify-content: flex-start;
 }
 
-@mixin link{
+%link{
   text-decoration: none;
   color: $linkNavTopColor;
+}
+.white{
+  @extend %link;
+  color: $linkNavBotColor;
 }
