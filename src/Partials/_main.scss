@@ -1,83 +1,170 @@
-.jumbotron{
-  position: relative;
+.nav-main{
+  width: 100%;
+  height: 70px;
+  background-color: #E6E6E6;
 
-  .jumbo{
-    @include jumbo;
-  }
+  .wrapper{
+    @include wrapper;
+    background-color: #E6E6E6;
 
-  .jumbo-text{
-    @include trasform;
-    color: $linkNavBotColor;
+    .third-nav{
+      height: 100%;
+      display: flex;
+      align-items: center;
+      list-style: none;
+      padding: 0 30px;
 
-    h2, h3{
-      font-size: $fontSize30;
-      margin-bottom: $marBot25;
-    }
-
-    .jumbo-list{
-      @include listNone;
-
-      li{
-        margin-bottom: $marBot15;
-
-        .download-trial{
-          margin-top: $margin30;
-          @include downloadTrial;
-
-          i{
-            font-size: $fontSize30;
-            border-left: 2px solid $linkNavBotColor;
-            padding-left: 15px;
-          }
-        }
-      }
-    }
-  }
-
-  .jumbo-square{
-    width: $squareWidth;
-    height: $squareHeigth;
-    background-color: black;
-    padding: $padding20;
-    @include positionAbs;
-
-    .square-top{
-      @include squareTop;
-
-      .price-download{
-
-        h2{
-          color: $linkNavBotColor;
-          margin-bottom: $marBot15;
-          font-size: $fontSize30;
-        }
-        p{
-          color: $linkNavTopColor;
-          font-size: $navTopFontSize;
-        }
-      }
-    }
-
-    .buy-now{
-      @include buyNow;
-      margin: $marginBuyNow;
-    }
-
-    .limited-time-offer{
-      @include limitedOffer;
-
-      h3{
-        margin-bottom: $marBot15;
-      }
-      p, a{
-        font-size: $navTopFontSize;
-      }
       a{
         text-decoration: none;
-        color: $iconsColor;
+        color: $darkGrey;
+        padding: $navBotPadding;
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+.quick-start{
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg");
+  @include background;
+  height: 900px;
+
+  .wrapper{
+    @include wrapper;
+    position: relative;
+    background-color: inherit;
+    text-align: center;
+    color: $linkNavBotColor;
+
+    .quick-start-text{
+      padding-top: 100px;
+
+      h2{
+        font-size: $sectionTitleSize;
+        margin-bottom: 20px;
+      }
+      p{
+        font-size: $sectionParSize;
+        margin-bottom: 30px;
       }
 
     }
-  }
 
+    .tablet{
+      height: 70%;
+      position: absolute;
+      bottom: 0;
+      right: 50%;
+      transform: translateX(50%);
+    }
+  }
+}
+
+.artificial-intelligence{
+
+  .wrapper{
+    @include wrapper;
+    background-color: inherit;
+    text-align: center;
+
+    .artificial-intelligence-text{
+      padding-top: 100px;
+
+      h2{
+        font-size: $sectionTitleSize;
+        margin-bottom: 20px;
+      }
+      p{
+        font-size: $sectionParSize;
+        margin-bottom: 30px;
+      }
+    }
+
+    .owl{
+      width: 80%;
+      margin-bottom: 50px;
+    }
+  }
+}
+
+.parallax{
+  @include parallax;
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-02.jpg");
+}
+
+.dark-section{
+  background-color: $darkSectionColor;
+
+  .wrapper{
+    @include wrapper;
+    background-color: inherit;
+    text-align: center;
+
+    .flexible-section-text{
+      padding-top: 100px;
+      color: $linkNavBotColor;
+
+      h2{
+        font-size: $sectionTitleSize;
+        margin-bottom: 20px;
+      }
+      p{
+        font-size: $sectionParSize;
+        margin-bottom: 100px;
+      }
+    }
+
+    .house{
+      width: 70%;
+    }
+
+    .black-canvas{
+      margin-top: 100px;
+      @include squareTop;
+
+      &-text{
+        color: $linkNavBotColor;
+
+        h3{
+          font-size: $sectionTitleSize;
+        }
+        p{
+          font-size: $sectionParSize;
+        }
+      }
+
+      &-img{
+        .devil{
+          width: 700px;
+        }
+      }
+    }
+
+    .industry-section{
+      margin-top: 100px;
+      @include squareTop;
+
+      &-img{
+        .lovers{
+          width: 700px;
+        }
+      }
+
+      &-text{
+        color: $linkNavBotColor;
+
+        h3{
+          font-size: $sectionTitleSize;
+        }
+        p{
+          font-size: $sectionParSize;
+        }
+      }
+    }
+  }
+}
+
+.secondary-parallax{
+  @include parallax;
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-01.jpg");
 }

@@ -75,3 +75,16 @@
   background-color: $limitedOfferColor;
   padding: $padding20;
 }
+
+@mixin parallax{
+  width: 100%;
+  height: 700px;
+  @include background;
+  background-attachment: fixed;
+}
+
+@mixin background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

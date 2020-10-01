@@ -162,3 +162,199 @@ header .wrapper .nav-bottom-list li a {
   color: #28ACFF;
 }
 
+.nav-main {
+  width: 100%;
+  height: 70px;
+  background-color: #E6E6E6;
+}
+
+.nav-main .wrapper {
+  width: 1280px;
+  height: 100%;
+  background-color: black;
+  margin: auto;
+  background-color: #E6E6E6;
+}
+
+.nav-main .wrapper .third-nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0 30px;
+}
+
+.nav-main .wrapper .third-nav a {
+  text-decoration: none;
+  color: #595959;
+  padding: 10px 25px;
+  font-size: 18px;
+}
+
+.quick-start {
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 900px;
+}
+
+.quick-start .wrapper {
+  width: 1280px;
+  height: 100%;
+  background-color: black;
+  margin: auto;
+  position: relative;
+  background-color: inherit;
+  text-align: center;
+  color: white;
+}
+
+.quick-start .wrapper .quick-start-text {
+  padding-top: 100px;
+}
+
+.quick-start .wrapper .quick-start-text h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.quick-start .wrapper .quick-start-text p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.quick-start .wrapper .tablet {
+  height: 70%;
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+.artificial-intelligence .wrapper {
+  width: 1280px;
+  height: 100%;
+  background-color: black;
+  margin: auto;
+  background-color: inherit;
+  text-align: center;
+}
+
+.artificial-intelligence .wrapper .artificial-intelligence-text {
+  padding-top: 100px;
+}
+
+.artificial-intelligence .wrapper .artificial-intelligence-text h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.artificial-intelligence .wrapper .artificial-intelligence-text p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.artificial-intelligence .wrapper .owl {
+  width: 80%;
+  margin-bottom: 50px;
+}
+
+.parallax {
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-02.jpg");
+}
+
+.dark-section {
+  background-color: #222222;
+}
+
+.dark-section .wrapper {
+  width: 1280px;
+  height: 100%;
+  background-color: black;
+  margin: auto;
+  background-color: inherit;
+  text-align: center;
+}
+
+.dark-section .wrapper .flexible-section-text {
+  padding-top: 100px;
+  color: white;
+}
+
+.dark-section .wrapper .flexible-section-text h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.dark-section .wrapper .flexible-section-text p {
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+
+.dark-section .wrapper .house {
+  width: 70%;
+}
+
+.dark-section .wrapper .black-canvas {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dark-section .wrapper .black-canvas-text {
+  color: white;
+}
+
+.dark-section .wrapper .black-canvas-text h3 {
+  font-size: 35px;
+}
+
+.dark-section .wrapper .black-canvas-text p {
+  font-size: 20px;
+}
+
+.dark-section .wrapper .black-canvas-img .devil {
+  width: 700px;
+}
+
+.dark-section .wrapper .industry-section {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dark-section .wrapper .industry-section-img .lovers {
+  width: 700px;
+}
+
+.dark-section .wrapper .industry-section-text {
+  color: white;
+}
+
+.dark-section .wrapper .industry-section-text h3 {
+  font-size: 35px;
+}
+
+.dark-section .wrapper .industry-section-text p {
+  font-size: 20px;
+}
+
+.secondary-parallax {
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-01.jpg");
+}
+
