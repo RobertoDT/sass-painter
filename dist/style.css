@@ -358,3 +358,96 @@ header .wrapper .nav-bottom-list li a {
   background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-01.jpg");
 }
 
+.tools {
+  padding: 100px;
+}
+
+.tools-text {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+
+.tools-imgs {
+  display: flex;
+  justify-content: center;
+}
+
+.tools-imgs .tools-img {
+  position: relative;
+  width: 300px;
+  max-width: 300px;
+  height: 300px;
+  max-height: 300px;
+  margin: 20px;
+  overflow: hidden;
+}
+
+.tools-imgs .tools-img img {
+  transition: all 1s ease;
+}
+
+.tools-imgs .tools-img:hover img {
+  width: 320px;
+  height: 320px;
+}
+
+.tools-imgs img {
+  width: 100%;
+  height: 100%;
+}
+
+.tools-imgs .description {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.additional-section {
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/brushpacks-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+}
+
+.additional-section .wrapper {
+  width: 1280px;
+  height: 100%;
+  background-color: black;
+  margin: auto;
+  background-color: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.additional-section .wrapper .squares {
+  text-align: center;
+  display: flex;
+}
+
+.additional-section .wrapper .squares .square-left,
+.additional-section .wrapper .squares .square-right {
+  background-color: white;
+  width: 450px;
+  height: 350px;
+  margin: 20px;
+  padding: 50px;
+}
+
+.additional-section .wrapper .squares .square-left h3,
+.additional-section .wrapper .squares .square-right h3 {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.additional-section .wrapper .squares .square-left p,
+.additional-section .wrapper .squares .square-right p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
