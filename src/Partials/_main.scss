@@ -94,6 +94,7 @@
 
 .dark-section{
   background-color: $darkSectionColor;
+  padding: 100px;
 
   .wrapper{
     @include wrapper;
@@ -101,7 +102,6 @@
     text-align: center;
 
     .flexible-section-text{
-      padding-top: 100px;
       color: $linkNavBotColor;
 
       h2{
